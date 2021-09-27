@@ -31,9 +31,3 @@ function respuestaCompra(){
 respuestaCompra()
 
 
-/*    puedeViajar = function() {
-            console.log("this:", this);
-            return this.pesoKG <=9 && this.vacunas === "si" && this.chipIdentificador === "si" ? true : false;
-        }
-*/
-
