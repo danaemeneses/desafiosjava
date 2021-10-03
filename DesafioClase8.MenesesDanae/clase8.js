@@ -3,9 +3,10 @@
 const contenedor = document.getElementById('textoservicios')
 
 let nombre = prompt("Ingrese su nombre")
+let tipoAnimal = prompt ("Ingrese tipo de animal: (gato/perro)")
 
 contenedor.innerHTML = `
-                        <h5>Bienvenido/a ${nombre}. Te ofrecemos nuestros servicios:</h5>
+                        <h5>Bienvenido/a ${nombre}. Te ofrecemos nuestros servicios para tu ${tipoAnimal}:</h5>
                     `
 
             
