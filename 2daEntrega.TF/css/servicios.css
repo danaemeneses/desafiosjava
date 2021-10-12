@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans Condensed", "sans-serif";
+    background-color: #F7EEF0;
+}
+
+#titulo{
+    margin-bottom: 60px;
+    margin-top: 60px;
+    color: #5D3B43 ;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+
+/*****BARRA DE NAVEGACIÓN******/
+
+
+
+.nav-link {
+    text-decoration: none;
+    color: black; 
+}
+
+
+
+nav > a:hover{
+    text-decoration: line-through;
+}
+
+.nav-item img{
+    width: 50px;
+    height: 50px;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+p span{
+    background-color: #510112;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: right;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    align-items: flex-end;
+    cursor: pointer;
+}
+/*****HEADER*****/
+
+header .text-header{
+    margin-bottom: 60px;
+    margin-top: 60px;
+    color: #5D3B43 ;
+    font-size: 25px;
+    text-align: center;
+}
+
+.imgheader h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 1px;
+    font-weight: 100;
+    position: relative;
+    background: linear-gradient(90deg, rgba(75,73,111,1) 0%, rgba(224,141,86,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+/******MODAL******/
+
+
+#modal-abrir{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+
+.modal-container{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(107, 40, 9, 0.342);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3 ease-in;
+}
+
+.modal-active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.textomodal {
+    background-color: #a75028;
+    color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.textomodal img{
+    width: 55%;
+    height: 55%;
+}
+
+.textomodal h2{
+    color: black;
+    font-weight: 700;
+}
+
+#modal-cerrar{
+    background-color: rgb(133, 66, 105);
+}
+
+
+
+/*************PRODUCTOS****************/
+
+
+
+#textoservicios{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding: 0px 0px 20px 20px;
+}
+
+#productos{
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.textonombre{
+    font-weight: 900;
+}
+
+
+.card{
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.card:hover{
+    border: 1px solid #920927;
+}
+
+.card-body{
+    background-color: white;
+}
+
+.cuerpobtn{
+    padding-bottom: 10px;
+}
+
+.btn{
+    background-color: rgb(133, 66, 105);
+}
+
+.cuerpocard{
+    padding-bottom: 100px;
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+
+}
+
+
+
+/***********************************************/
+
+footer{
+    padding: 200px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-footer{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom: 1px solid saddlebrown;
+    border-top: 1px solid saddlebrown;
+}
+
+.text-foo{
+    text-align: center;
+}
+
+.finaltext{
+    text-align: center;
+    color: grey;
+    padding-top: 10px;
+}

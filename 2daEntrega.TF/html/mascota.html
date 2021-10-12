@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Travel</title>
+    <link rel="shortcut icon" href="../img/faviconpaw.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/stylemascota.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../html/index.html">Inicio</a>
+            <a href="../html/mascota.html">Tu mascota</a>
+            <a href="../html/servicios.html">Servicios</a>
+            <a href="../html/contacto.html">Contacto</a>
+        </nav>
+        <div class="imgheader">
+            <h1>PET TRAVEL</h1>
+        </div>
+    </header>
+    <main>
+        <section class="container testmascota">
+            <h2 id= "titulo" class="titulo">Test sobre tu mascota</h2>
+            <div class="infotest">
+                <img id="imagen" src="../img/test.jpg">
+                <div class="textomascota">
+                    <h4>¿Cabina o bodega?</h4>
+                    <p>Te invitamos a completar el siguiente test con los datos sobre tu mascota para corroborar si le faltan vacunas, chip y en dónde le correspondería viajar.</p>
+                </div>
+            </div>
+            <div class="formulario">
+                <form id="form">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputTelefono">Teléfono</label>
+                            <input type="number" class="form-control" id="inputTelefono" placeholder="Codigo de área sin 0 y número sin 15">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputNombre">Nombre de tu mascota</label>
+                            <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese nombre de su mascota">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputEdad">Edad de tu mascota</label>
+                            <input type="number" class="form-control" id="inputEdad" placeholder="Ingrese edad de su mascota">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputTipo">Tipo de mascota:</label>
+                            <input type="text" class="form-control" id="inputTipo" placeholder="Ingrese si es perro o gato">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputPeso">Peso</label>
+                            <input type="number" class="form-control" id="inputPeso" placeholder="Ingrese peso de su mascota solo con nros">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputVacunas">¿Tiene vacunas al día?</label>
+                            <input type="text" class="form-control" id="inputVacunas" placeholder="Ingrese si/no">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputChip">¿Tiene chip identificador colocado?</label>
+                            <input type="text" class="form-control" id="inputChip" placeholder="Ingrese si/no">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Quiero recibir novedades y promociones por mail
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" value="enviar" id="enviar">Enviar</button>
+                </form>
+                <button id="modal-abrir">Mostrar Resultado</button>
+            </div>
+            <div id="resultadoTest" class="resultadotest">
+                <div class="modal-container">
+                    <div class="textomodal">
+                        <h2>Resultados:</h2>
+                        <p>Viaje en cabina: Para viajar en cabina tu mascota y el canil deben pesar menos de 9kg en TOTAL. De lo contrario, deberá viajar en bodega.</p>
+                        <p>Si tu mascota tiene todas las vacunas al día y el chip colocado, ya está en condiciones de poder viajar!</p>
+                        <button id="modal-cerrar">Cerrar</button>
+                    </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container-footer">
+            <div class="text-foo">
+                <h5>Instagram</h5>
+                <p>@cuenta</p>
+            </div>
+            <div class="text-foo">
+                <h5>Teléfono</h5>
+                <p>3510000000</p>
+            </div>
+            <div class="text-foo">
+                <h5>Email</h5>
+                <p>mail@gmail.com</p>
+            </div>
+            <div class="text-foo">
+                <h5>Dirección</h5>
+                <p>Córdoba, Argentina</p>
+            </div>
+        </div>
+        <h6 class="finaltext">&copy; Trabajo final: Javascript | Meneses Danae Macarena</h6>
+    </footer>
+    <script src="../javascript/mascota.js"></script>
+</body>
+</html>
