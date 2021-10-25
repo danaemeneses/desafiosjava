@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans Condensed", "sans-serif";
+    background-color: #F7EEF0;
+}
+
+.contenedor{
+    padding: 80px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+
+
+/***************************/
+
+
+nav{
+    text-align: right;
+}
+
+nav > a{
+    color: black;
+    font-weight: 200;
+    margin-right: 10px;
+    text-decoration: none;
+}
+nav > a:hover{
+    text-decoration: line-through;
+}
+
+
+/****************************/
+
+.imgheader h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 1px;
+    font-weight: 100;
+    position: relative;
+    background: linear-gradient(90deg, rgba(75,73,111,1) 0%, rgba(224,141,86,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+
+.infocontacto h2{
+    text-align: center;
+    padding: 60px;
+    font-weight: 900;
+    color: #892000; 
+}
+
+
+
+.formulario{
+    padding-top: 60px;
+}
+
+
+.btn{
+    background-color: #8b96cc;
+}
+
+footer {
+    padding-top: 80px; 
+}
+
+.contenidofooter {
+    width: 100%;
+    height: 100px;
+    background-color: #e6e2f6;
+    color: black;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.textofooter {
+    margin: auto;
+    text-align: center;
+    font-size: 12px; 
+}
+
+
+
+
